@@ -1,0 +1,111 @@
+/* === CSS Variables === */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightgray;
+    font-family: 'CursedTimerULiL';
+}
+
+.copyright{
+    font-size: 0.8em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copyright a {
+    color:black
+}
+
+.copyright a:hover {
+    color:lightcoral
+}
+
+/* === Fonts === */
+@font-face {
+    font-family: 'CursedTimerULiL';
+    src: url('/CursedTimerULiL.ttf');
+}
+
+
+h1{
+    font-size: 80px;
+    color:#F94F6D;
+    margin: 0
+}
+
+h2{
+    font-family: Verdana;
+    font-size: 40px;
+    color:white;
+}
+
+
+/* === Container === */
+
+main{
+    border-radius: 10px;;
+    background: #1B244A;
+    width: 560px;
+    height: 360px;
+    margin: 50px auto;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    text-align: center;
+}
+
+
+.screen{
+    width: 160px;
+    height: 120px;
+    margin-top:21px;
+    margin-bottom:26px;
+    background: #080001;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+    font-size: 18px;
+    line-height: 155%;
+    text-align: center;
+    color: #9AABD8;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity:0.8;
+    transform: scale(1.05);
+}
+
+.btn:active{
+    background-color: lightsalmon;
+    color: cadetblue
+}
+
+.reset{
+    margin-top: 10px;
+    width: 100%;
+}
